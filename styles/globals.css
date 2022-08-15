@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0D1323] text-white;
+  }
+  .time-list {
+    @apply text-[#bdc1ff];
+  }
+  .light-orange {
+    @apply bg-[#ff8c66];
+  }
+  .soft-blue {
+    @apply bg-[#56c2e6];
+  }
+  .light-red {
+    @apply bg-[#ff5c7c];
+  }
+  .lime-green {
+    @apply bg-[#4acf81];
+  }
+  .violet-f {
+    @apply bg-[#7536d3];
+  }
+  .soft-orange {
+    @apply bg-[#f1c65b];
+  }
+}
