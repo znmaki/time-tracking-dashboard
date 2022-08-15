@@ -14,7 +14,7 @@ export default function Home({ data }) {
   }, [])
 
   return (
-    <div className='flex my-5 2xl:h-[100vh] justify-center'>
+    <div className='flex my-5 2xl:my-0 2xl:h-[100vh] justify-center'>
       <section className="grid grid-rows-7-phone 2xl:grid-cols-4 2xl:grid-rows-none gap-5 2xl:max-w-[1050px] m-auto">
         <article className=" 2xl:row-span-2 h-[13rem] 2xl:h-[26rem] 2xl:mb-[30px] relative">
           <div className='bg-[#5847eb] rounded-lg 2xl:pt-[25px] 2xl:pl-[25px] 2xl:pb-14 p-[25px] relative z-20 flex 2xl:block'>
